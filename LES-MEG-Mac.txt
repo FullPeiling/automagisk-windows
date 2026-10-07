@@ -1,0 +1,12 @@
+FullPeiling Møtereferat – intern Mac-pilot 0.1.1 (bygg 2)
+
+Krever Apple Silicon (ARM64) og macOS 26 eller nyere.
+
+Åpne FullPeiling-Motereferat-0.1.1-Mac.dmg og dra Møtereferat.app til Programmer. Lukk Møtereferat før du erstatter en eksisterende app. Appen bruker samme Møtereferat-identitet; møtedata ligger utenfor apppakken. Automatisk oppdatering er ikke aktivert i denne piloten.
+
+App og DMG er signert med Developer ID, godkjent ved Apple-notarisering og staplet. Gatekeeper-kontroll og native oppstart er bekreftet. Dette er en intern pilot, ikke Mac App Store-utgaven.
+
+Ved første bruk kan talemodeller kreve nedlasting. Transkripsjon skjer lokalt; referater kan skrives med lokal eller skybasert motor, avhengig av valgt tilkobling og innlogging. iCloud bruker samme Apple-ID og Møtereferats Production-miljø. Full iPhone-rundtur er ikke prøvd på nytt med denne nedlastingspakken. Begynn med et ufølsomt testopptak.
+
+Filstørrelse: 18 443 017 byte
+SHA-256: 47995f157e389631d13b1ade7d71d68a8fc5d5a7d2f375dec2fc0c73b8f5db5f
