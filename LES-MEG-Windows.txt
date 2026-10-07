@@ -1,0 +1,19 @@
+FullPeiling Møtereferat – intern Windows-pilot 0.1.0
+
+Installer FullPeiling-Motereferat-Windows-0.1.0.exe på Windows x64. Støttet målplattform er Windows 11 25H2 (bygg 26200) eller nyere. Windows 11 24H2 er teknisk installasjonsgrense og regnes ikke som støttet pilotplattform. ARM er ikke kvalifisert. Installasjonen skjer for din bruker uten administrator, og appen har egen identitet og datamappe ved siden av Automagisk.
+
+Filen er usignert. Windows kan vise «Windows beskyttet PC-en» og ukjent utgiver. Kontroller filnavn, nedlastingssted og SHA-256 før du velger Mer informasjon / Kjør likevel. Følg bedriftens sikkerhetsregler dersom Windows blokkerer installasjonen.
+
+Ved første start følger du oppsettet og velger lyd og referatmotor. Modeller kan kreve nedlasting; skybaserte motorer krever egen innlogging eller nøkkel. Kjør første forsøk med et ufølsomt testopptak.
+
+Dette er det faktiske produktbygget bc768611cfc8b2c4f1b98a350b9bb154816732bb fra 06.10.2026. Det er ikke et nytt ff357493-bygg. CI på Windows Server 2025 bestod installasjon, 33 appskallsjekker, installasjon/avinstallasjon som vanlig bruker, 4597 kontraktprøver i både Debug og Release og 13 opptaksprøver. Hele native møteprøven stoppet ved tegnvalg i en egen mal; tegnkodingsretting finnes i senere prøveskript, men ny CI ble blokkert av GitHub-kontoens betaling/forbruksgrense.
+
+Begrensninger: fysisk Windows 11 er ikke prøvd; native PDF-eksport og Ollama-flyt ble ikke nådd i denne CI; automatisk iPhone-/iCloud-rundtur er ikke levert; full Mac-paritet og automatisk oppdatering er ikke kvalifisert. Piloten kan brukes til kontrollert intern utprøving, og er ikke en ferdig signert kundeutgivelse.
+
+Installer: 88 632 761 byte
+SHA-256: 4f4c1ce5a8d761d89e57537c5dda3afd5db3682399da4317b1d442e9d46f4b95
+CI: https://github.com/FullPeiling/automagisk/actions/runs/37405932365
+
+Datamappe: %LOCALAPPDATA%\FullPeiling\Motereferat
+Installert app: %LOCALAPPDATA%\FullPeiling.Motereferat
+Avinstaller fra Windows Innstillinger / Installerte apper. Møtedata ligger utenfor installasjonsmappen. Ingen automatisk oppdateringskanal er aktivert i dette bygget.
