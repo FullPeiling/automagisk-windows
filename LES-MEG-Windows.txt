@@ -1,18 +1,22 @@
-FullPeiling Møtereferat – intern Windows-pilot 0.1.0
+FullPeiling Møtereferat for Windows 0.1.1 (begrenset pilot)
 
-Installer FullPeiling-Motereferat-Windows-0.1.0.exe på Windows x64. Støttet målplattform er Windows 11 25H2 (bygg 26200) eller nyere. Windows 11 24H2 er teknisk installasjonsgrense og regnes ikke som støttet pilotplattform. ARM er ikke kvalifisert. Installasjonen skjer for din bruker uten administrator, og appen har egen identitet og datamappe ved siden av Automagisk.
+Installer FullPeiling-Motereferat-Windows-0.1.1.exe på Windows x64. Støttet målplattform er Windows 11 25H2 (bygg 26200) eller nyere. Windows 11 24H2 er teknisk installasjonsgrense og regnes ikke som støttet plattform. ARM er ikke kvalifisert. Installasjonen skjer for din bruker uten administrator, og appen har egen identitet og datamappe ved siden av Automagisk. Har du 0.1.0 fra før, kan 0.1.1 installeres over den. Oppgraderingen er ikke prøvd på en fysisk PC.
 
-Filen er usignert. Windows kan vise «Windows beskyttet PC-en» og ukjent utgiver. Kontroller filnavn, nedlastingssted og SHA-256 før du velger Mer informasjon / Kjør likevel. Følg bedriftens sikkerhetsregler dersom Windows blokkerer installasjonen.
+Filen er usignert, så Windows kan varsle om ukjent utgiver. Kontroller filnavn, nedlastingssted og SHA-256 før du installerer, og følg bedriftens sikkerhetsregler dersom Windows blokkerer installasjonen.
 
 Ved første start følger du oppsettet og velger lyd og referatmotor. Modeller kan kreve nedlasting; skybaserte motorer krever egen innlogging eller nøkkel. Kjør første forsøk med et ufølsomt testopptak.
 
-Dette er det faktiske produktbygget bc768611cfc8b2c4f1b98a350b9bb154816732bb fra 06.10.2026. Det er ikke et nytt ff357493-bygg. CI på Windows Server 2025 bestod installasjon, 33 appskallsjekker, installasjon/avinstallasjon som vanlig bruker, 4597 kontraktprøver i både Debug og Release og 13 opptaksprøver. Hele native møteprøven stoppet ved tegnvalg i en egen mal; tegnkodingsretting finnes i senere prøveskript, men ny CI ble blokkert av GitHub-kontoens betaling/forbruksgrense.
+Nytt i 0.1.1: FullPeiling-designet, med sidene Møter, Oppfølging, Plattform og Behandling. «Rediger referat» og «Rett utskrift» i møtet, med forhåndsvisning, teksthistorikk og personlige skrivemåter. Ctrl+S lagrer i editoren. Egne referatmaler. Eksport til PDF og Markdown. Automatisk opptak når et møte starter, av som standard. Lokalt referat med Ollama. Innlogging mot FullPeiling-plattformen, med spørsmål før noe sendes. Den samlede oppgavelista på Oppfølging er ikke ferdig.
 
-Begrensninger: fysisk Windows 11 er ikke prøvd; native PDF-eksport og Ollama-flyt ble ikke nådd i denne CI; automatisk iPhone-/iCloud-rundtur er ikke levert; full Mac-paritet og automatisk oppdatering er ikke kvalifisert. Piloten kan brukes til kontrollert intern utprøving, og er ikke en ferdig signert kundeutgivelse.
+Kjent i 0.1.1: Versjonslista i Teksthistorikk fikk appen til å henge da et automatisk verktøy leste hele lista; med skjermleser er den ikke prøvd.
 
-Installer: 88 632 761 byte
-SHA-256: 4f4c1ce5a8d761d89e57537c5dda3afd5db3682399da4317b1d442e9d46f4b95
-CI: https://github.com/FullPeiling/automagisk/actions/runs/37405932365
+Om denne versjonen: bygget fa5690a3c712b6cd4848040ea4277df6b5488346 i CI-kjøring 38552675171 på Windows Server 2025, der alle tolv jobber var grønne: installasjon, 33 appskallsjekker, installasjon som vanlig bruker, 4775 kontraktprøver i Debug og Release, utskrift, opptak, hele den første reisen, A6.2 med tekstredigering, teksthistorikk, personlige skrivemåter og PDF-eksport, egne maler, Ollama, bildene og én forekomst. Bruk på fysisk Windows 11 er ikke ferdig verifisert. Piloten er til kontrollert utprøving, ikke en ferdig signert kundeutgivelse.
+
+iCloud-synk med iPhone, full Mac-funksjonalitet og automatisk oppdatering er ikke tilgjengelig i 0.1.1. Installer nye versjoner fra referat.fullpeiling.no. Appen er foreløpig ikke Microsoft-signert.
+
+Installer: 88 816 672 byte
+SHA-256: f3c6e48fd388a0634bf175aa8b4b6504c20057891b00230c9933a8fb02f76456
+CI: https://github.com/FullPeiling/automagisk/actions/runs/38552675171
 
 Datamappe: %LOCALAPPDATA%\FullPeiling\Motereferat
 Installert app: %LOCALAPPDATA%\FullPeiling.Motereferat
