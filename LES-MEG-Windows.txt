@@ -1,22 +1,24 @@
-FullPeiling Møtereferat for Windows 0.1.1 (begrenset pilot)
+FullPeiling Møtereferat for Windows 0.1.2 (pilot)
 
-Installer FullPeiling-Motereferat-Windows-0.1.1.exe på Windows x64. Støttet målplattform er Windows 11 25H2 (bygg 26200) eller nyere. Windows 11 24H2 er teknisk installasjonsgrense og regnes ikke som støttet plattform. ARM er ikke kvalifisert. Installasjonen skjer for din bruker uten administrator, og appen har egen identitet og datamappe ved siden av Automagisk. Har du 0.1.0 fra før, kan 0.1.1 installeres over den. Oppgraderingen er ikke prøvd på en fysisk PC.
+Installer FullPeiling-Motereferat-Windows-0.1.2.exe på Windows x64. Støttet målplattform er Windows 11 25H2 (bygg 26200) eller nyere. Windows 11 24H2 er teknisk installasjonsgrense og regnes ikke som støttet plattform. ARM er ikke kvalifisert. Installasjonen skjer for din bruker uten administrator, og appen har egen identitet og datamappe ved siden av Automagisk. Har du 0.1.1 fra før, kan 0.1.2 installeres over den. Oppgraderingen er ikke prøvd på en fysisk PC.
 
 Filen er usignert, så Windows kan varsle om ukjent utgiver. Kontroller filnavn, nedlastingssted og SHA-256 før du installerer, og følg bedriftens sikkerhetsregler dersom Windows blokkerer installasjonen.
 
-Ved første start følger du oppsettet og velger lyd og referatmotor. Modeller kan kreve nedlasting; skybaserte motorer krever egen innlogging eller nøkkel. Kjør første forsøk med et ufølsomt testopptak.
+Ved første start logger du inn med e-post eller Microsoft og godtar behandlingen. Møtelyden lagres kryptert på PC-en. Du trenger ingen talemodell, egen AI-konto eller nøkkel. Kjør første forsøk med et ufølsomt testopptak.
 
-Nytt i 0.1.1: FullPeiling-designet, med sidene Møter, Oppfølging, Plattform og Behandling. «Rediger referat» og «Rett utskrift» i møtet, med forhåndsvisning, teksthistorikk og personlige skrivemåter. Ctrl+S lagrer i editoren. Egne referatmaler. Eksport til PDF og Markdown. Automatisk opptak når et møte starter, av som standard. Lokalt referat med Ollama. Innlogging mot FullPeiling-plattformen, med spørsmål før noe sendes. Den samlede oppgavelista på Oppfølging er ikke ferdig.
+Pilot: referatet er foreløpig bare tilgjengelig for inviterte kontoer. Andre kan installere og ta opp, men får ikke referat ennå.
 
-Kjent i 0.1.1: Versjonslista i Teksthistorikk fikk appen til å henge da et automatisk verktøy leste hele lista; med skjermleser er den ikke prøvd.
+Nytt i 0.1.2: Du logger inn med e-postkode eller Microsoft, og godtar behandlingen én gang per konto. Referatet skrives for deg, med sammendrag, hovedpunkter, beslutninger, oppfølgingspunkter og åpne spørsmål, og kan kopieres eller eksporteres til PDF og Markdown. Du laster ikke ned talemodeller, og oppsettet har ikke lenger valg av modell eller leverandør. Et opptak som venter på innlogging, kan slettes, og appen kan lukkes mens det venter.
 
-Om denne versjonen: bygget fa5690a3c712b6cd4848040ea4277df6b5488346 i CI-kjøring 38552675171 på Windows Server 2025, der alle tolv jobber var grønne: installasjon, 33 appskallsjekker, installasjon som vanlig bruker, 4775 kontraktprøver i Debug og Release, utskrift, opptak, hele den første reisen, A6.2 med tekstredigering, teksthistorikk, personlige skrivemåter og PDF-eksport, egne maler, Ollama, bildene og én forekomst. Bruk på fysisk Windows 11 er ikke ferdig verifisert. Piloten er til kontrollert utprøving, ikke en ferdig signert kundeutgivelse.
+Kjent i 0.1.2: Innlogging, opptak og referat er prøvd på en Windows-PC med en testkopi som har de samme rettingene, ikke med denne installasjonsfila. Installasjon over 0.1.1 er ikke prøvd på en fysisk PC, og skjermleser er ikke prøvd.
 
-iCloud-synk med iPhone, full Mac-funksjonalitet og automatisk oppdatering er ikke tilgjengelig i 0.1.1. Installer nye versjoner fra referat.fullpeiling.no. Appen er foreløpig ikke Microsoft-signert.
+Om denne versjonen: bygget be66198b0250e9657907bae09a173f7994c7b317 i CI-kjøring 39911329512 på Windows Server 2025, der alle jobbene og dommen var grønne. Piloten er til kontrollert utprøving, ikke en ferdig signert kundeutgivelse.
 
-Installer: 88 816 672 byte
-SHA-256: f3c6e48fd388a0634bf175aa8b4b6504c20057891b00230c9933a8fb02f76456
-CI: https://github.com/FullPeiling/automagisk/actions/runs/38552675171
+iCloud-synk med iPhone og automatisk oppdatering er ikke tilgjengelig i 0.1.2. Installer nye versjoner fra referat.fullpeiling.no. Appen er foreløpig ikke Microsoft-signert.
+
+Installer: 88 899 487 byte
+SHA-256: 799196b147e5916a3ce546e27ab8ce47c137cb207cedcd5dcca41a1caef24a58
+CI: https://github.com/FullPeiling/automagisk/actions/runs/39911329512
 
 Datamappe: %LOCALAPPDATA%\FullPeiling\Motereferat
 Installert app: %LOCALAPPDATA%\FullPeiling.Motereferat
