@@ -1,15 +1,17 @@
-Peiling Møtereferat for Mac 1.0.0 (bygg 9)
+Peiling Møtereferat for Mac 1.0.1 (bygg 10)
 
 Krever Mac med Apple Silicon og macOS 26 eller nyere.
 
-Åpne Peiling-Motereferat-1.0.0-Mac.dmg og dra Møtereferat til Programmer. Avslutt Møtereferat før du erstatter en eldre versjon. Møtene ligger utenfor appen og blir værende.
+Åpne Peiling-Motereferat-1.0.1-Mac.dmg og dra Møtereferat til Programmer. Avslutt Møtereferat før du erstatter en eldre versjon. Møtene ligger utenfor appen og blir værende.
 
 App og diskbilde er signert med Developer ID og notarisert av Apple.
 
 Ved første start logger du inn og godtar behandlingen. Så tar du opp møtet på Macen eller importerer et opptak, og referatet kommer når opptaket er ferdig. Du trenger ingen talemodell, egen AI-konto eller nøkkel.
 
+Møter inntil 4 timer kan behandles.
+
 De første 14 dagene er gratis.
 
-Fil: Peiling-Motereferat-1.0.0-Mac.dmg
-Størrelse: 19 527 002 byte
-SHA-256: 23c842cfa4866a651f596e08e97ae142b66e366caa383a129fdee421dbeeec31
+Fil: Peiling-Motereferat-1.0.1-Mac.dmg
+Størrelse: 19 526 760 byte
+SHA-256: e248d160f893b25f80b12bcc2c1b9bc15a39ea9a61fb5df8ef20af64f568e274
