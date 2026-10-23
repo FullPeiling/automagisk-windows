@@ -1,12 +1,15 @@
-FullPeiling Møtereferat – intern Mac-pilot 0.1.1 (bygg 2)
+Peiling Møtereferat for Mac 1.0.0 (bygg 9)
 
-Krever Apple Silicon (ARM64) og macOS 26 eller nyere.
+Krever Mac med Apple Silicon og macOS 26 eller nyere.
 
-Åpne FullPeiling-Motereferat-0.1.1-Mac.dmg og dra Møtereferat.app til Programmer. Lukk Møtereferat før du erstatter en eksisterende app. Appen bruker samme Møtereferat-identitet; møtedata ligger utenfor apppakken. Automatisk oppdatering er ikke aktivert i denne piloten.
+Åpne Peiling-Motereferat-1.0.0-Mac.dmg og dra Møtereferat til Programmer. Avslutt Møtereferat før du erstatter en eldre versjon. Møtene ligger utenfor appen og blir værende.
 
-App og DMG er signert med Developer ID, godkjent ved Apple-notarisering og staplet. Gatekeeper-kontroll og native oppstart er bekreftet. Dette er en intern pilot, ikke Mac App Store-utgaven.
+App og diskbilde er signert med Developer ID og notarisert av Apple.
 
-Ved første bruk kan talemodeller kreve nedlasting. Transkripsjon skjer lokalt; referater kan skrives med lokal eller skybasert motor, avhengig av valgt tilkobling og innlogging. iCloud bruker samme Apple-ID og Møtereferats Production-miljø. Full iPhone-rundtur er ikke prøvd på nytt med denne nedlastingspakken. Begynn med et ufølsomt testopptak.
+Ved første start logger du inn og godtar behandlingen. Så tar du opp møtet på Macen eller importerer et opptak, og referatet kommer når opptaket er ferdig. Du trenger ingen talemodell, egen AI-konto eller nøkkel.
 
-Filstørrelse: 18 443 017 byte
-SHA-256: 47995f157e389631d13b1ade7d71d68a8fc5d5a7d2f375dec2fc0c73b8f5db5f
+De første 14 dagene er gratis.
+
+Fil: Peiling-Motereferat-1.0.0-Mac.dmg
+Størrelse: 19 527 002 byte
+SHA-256: 23c842cfa4866a651f596e08e97ae142b66e366caa383a129fdee421dbeeec31
