@@ -1,6 +1,6 @@
-Peiling Møtereferat for Windows 1.0.0
+Peiling Møtereferat for Windows 1.1.0
 
-Installer Peiling-Motereferat-1.0.0-Windows.exe på Windows 11 25H2 (bygg 26200) eller nyere, x64. Installasjonen skjer for din bruker, uten administrator, og appen har egen datamappe ved siden av Automagisk. Har du en eldre versjon, installeres denne over den, og møtene blir værende.
+Installer Peiling-Motereferat-1.1.0-Windows.exe på Windows 11 25H2 (bygg 26200) eller nyere, x64. Installasjonen skjer for din bruker, uten administrator, og appen har egen datamappe ved siden av Automagisk. Har du en eldre versjon, installeres denne over den, og møtene blir værende.
 
 Windows kan be deg bekrefte installasjonen første gang. Velg Mer informasjon og Kjør likevel, og kontroller filnavn og SHA-256 først.
 
@@ -8,8 +8,8 @@ Ved første start logger du inn med e-post eller Microsoft og godtar behandlinge
 
 De første 14 dagene er gratis.
 
-Installer: 88 899 035 byte
-SHA-256: 3b2fbbcd3994ee3d59d7be0f9fef1ee2a74d96a7d917648a3b9744bb31f21c7a
+Installer: 84 179 379 byte
+SHA-256: e7321b001942e025df331c17e92d2aa4eadbcd26e01c77afc155db7a1d1ec280
 
 Datamappe: %LOCALAPPDATA%\FullPeiling\Motereferat
 Installert app: %LOCALAPPDATA%\FullPeiling.Motereferat
