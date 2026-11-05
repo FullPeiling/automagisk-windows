@@ -1,15 +1,17 @@
-Peiling Møtereferat for Windows 1.1.0
+Peiling Møtereferat for Windows 1.2.0
 
-Installer Peiling-Motereferat-1.1.0-Windows.exe på Windows 11 25H2 (bygg 26200) eller nyere, x64. Installasjonen skjer for din bruker, uten administrator, og appen har egen datamappe ved siden av Automagisk. Har du en eldre versjon, installeres denne over den, og møtene blir værende.
+Installer Peiling-Motereferat-1.2.0-Windows.exe på Windows 11 25H2 (bygg 26200) eller nyere, x64. Installasjonen skjer for din bruker, uten administrator, og appen har egen datamappe ved siden av Automagisk. Har du en eldre versjon, installeres denne over den, og møtene blir værende.
 
 Windows kan be deg bekrefte installasjonen første gang. Velg Mer informasjon og Kjør likevel, og kontroller filnavn og SHA-256 først.
 
 Ved første start logger du inn med e-post eller Microsoft og godtar behandlingen. Så tar du opp møtet eller importerer et opptak, og referatet kommer når opptaket er ferdig. Du trenger ingen talemodell, egen AI-konto eller nøkkel.
 
+Nytt i 1.2.0: Referatet følger malen du velger, med 23 maler fra styremøte til jobbintervju.
+
 De første 14 dagene er gratis.
 
-Installer: 84 179 379 byte
-SHA-256: e7321b001942e025df331c17e92d2aa4eadbcd26e01c77afc155db7a1d1ec280
+Installer: 84 181 000 byte
+SHA-256: ea46c7bf1fb0b1eb9cb28f3284cfbf1f082ff83dda340b8956b4ec6dcb407b4f
 
 Datamappe: %LOCALAPPDATA%\FullPeiling\Motereferat
 Installert app: %LOCALAPPDATA%\FullPeiling.Motereferat

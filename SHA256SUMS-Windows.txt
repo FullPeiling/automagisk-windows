@@ -1,3 +1,4 @@
+ea46c7bf1fb0b1eb9cb28f3284cfbf1f082ff83dda340b8956b4ec6dcb407b4f  Peiling-Motereferat-1.2.0-Windows.exe
 e7321b001942e025df331c17e92d2aa4eadbcd26e01c77afc155db7a1d1ec280  Peiling-Motereferat-1.1.0-Windows.exe
 3b2fbbcd3994ee3d59d7be0f9fef1ee2a74d96a7d917648a3b9744bb31f21c7a  Peiling-Motereferat-1.0.0-Windows.exe
 799196b147e5916a3ce546e27ab8ce47c137cb207cedcd5dcca41a1caef24a58  FullPeiling-Motereferat-Windows-0.1.2.exe
